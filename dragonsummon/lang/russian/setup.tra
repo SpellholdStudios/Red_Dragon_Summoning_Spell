@@ -1,4 +1,5 @@
-@1 = ~Red Dragon Summoning Spell~
+@1  = ~Red Dragon Summoning Spell~
+@2  = ~You must have ToB, BGT, BG2:EE or EET installed to install the Red Dragon Summoning Spell.~
 
 @10 = ~Свиток~
 @11 = ~Призыв Дракона~
@@ -30,6 +31,8 @@
 
 "Драконы - огромные и обидчивые существа, поэтому не призывайте их в узких коридорах, как и не вздумайте задеть их магией большого радиуса действия" - таково было наставление покойного архимага Тасретала, трагически съеденного драконом.~
 
+/* DEPRECATED as of v2.0.0
 @30 = ~Options:
 1- Spell is added to Ribald's store in the adventure mart
 2- Spell is not added to any store (as per original) and must be clua console'd in. Item Code is sumdrag~
+*/

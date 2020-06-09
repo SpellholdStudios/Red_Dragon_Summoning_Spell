@@ -37,18 +37,21 @@ LANGUAGE ~Russian (translation by Fess)~
  *    Red Dragon Summoning Spell    *
  * ================================ */
 BEGIN @1
+DESIGNATED 0 LABEL ~red_dragon_summoning_spell~
+REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @2	// ~You must have ToB, BGT, BG2:EE or EET installed to install the Red Dragon Summoning Spell.~
+
 COPY ~dragonsummon/files/sumdrag.itm~ ~override~
- SAY NAME1 @10
- SAY NAME2 @11
- SAY UNIDENTIFIED_DESC @12
- SAY DESC @13
+	SAY NAME1 @10
+	SAY NAME2 @11
+	SAY UNIDENTIFIED_DESC @12
+	SAY DESC @13
 
 COPY ~dragonsummon/files/sumdrag.spl~ ~override~
- SAY NAME1 @20
- SAY UNIDENTIFIED_DESC @21
+	SAY NAME1 @20
+	SAY UNIDENTIFIED_DESC @21
 
 COPY ~dragonsummon/files/sumdrag.eff~ ~override~
-
+/*
 PRINT @30 // should the spell be added to ribald's store?
 ACTION_READLN ~ribald~
 
@@ -60,4 +63,4 @@ END
 ACTION_IF %ribald% ==1 BEGIN
 COPY_EXISTING ~ribald.sto~ ~override/ribald.sto~
 ADD_STORE_ITEM "SUMDRAG" #1 #0 #0 ~IDENTIFIED~ #1
-END
+END*/
