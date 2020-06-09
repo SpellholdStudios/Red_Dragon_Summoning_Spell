@@ -1,25 +1,53 @@
-BACKUP ~DragonSummon/backup~ 
+BACKUP ~dragonsummon/backup~
 AUTHOR ~Send a PM to Kevmus at spellholdstudios.net or send an email to KevmusBG@gmail.com~ // contact address displayed if installation fails
-VERSION ~v1~ // version number
-README ~DragonSummon/Readme-DragonSummon.txt~
+VERSION ~v1~
+README ~dragonsummon/Readme-DragonSummon.txt~
 
+
+ALWAYS
+
+	/* Converts tra files to UTF-8 */
+	ACTION_DEFINE_ARRAY ds_reload BEGIN setup END
+	ACTION_DEFINE_ARRAY ds_noconvert BEGIN END
+	LAF HANDLE_CHARSETS
+		INT_VAR
+			infer_charsets = 1
+		STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/lang~
+			noconvert_array = ds_noconvert
+			reload_array = ds_reload
+	END
+
+END
 
 LANGUAGE ~English~
-  ~english~
-  ~DragonSummon/languages/english/setup.tra~
-  
+         ~english~
+         ~dragonsummon/lang/english/setup.tra~
+
+LANGUAGE ~Espanol (traduccion por Lisandro para clandlan.net)~
+         ~spanish~
+         ~dragonsummon/lang/spanish/setup.tra~
+
+LANGUAGE ~Russian (translation by Fess)~
+         ~russian~
+         ~dragonsummon/lang/russian/setup.tra~
+
+
+/* ================================ *
+ *    Red Dragon Summoning Spell    *
+ * ================================ */
 BEGIN @1
-COPY ~DragonSummon/SUMDRAG.itm~ ~override~
+COPY ~dragonsummon/files/sumdrag.itm~ ~override~
  SAY NAME1 @10
  SAY NAME2 @11
- SAY UNIDENTIFIED_DESC @12 
- SAY DESC @13 
+ SAY UNIDENTIFIED_DESC @12
+ SAY DESC @13
 
-COPY ~DragonSummon/SUMDRAG.spl~ ~override~
+COPY ~dragonsummon/files/sumdrag.spl~ ~override~
  SAY NAME1 @20
  SAY UNIDENTIFIED_DESC @21
- 
-COPY ~DragonSummon/SUMDRAG.eff~ ~override~
+
+COPY ~dragonsummon/files/sumdrag.eff~ ~override~
 
 PRINT @30 // should the spell be added to ribald's store?
 ACTION_READLN ~ribald~

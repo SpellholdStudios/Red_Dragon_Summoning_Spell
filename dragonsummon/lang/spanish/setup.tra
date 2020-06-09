@@ -1,0 +1,14 @@
+@1  = ~Hechizo de convocar Dragón Rojo~ 
+
+@10 = ~Pergamino~
+@11 = ~Convocar Dragón~ 
+@12 = ~Este pergamino andrajoso parece vagamente poderoso.~
+@13 = ~Convoca un dragón rojo.~ 
+
+@20 = ~Convocar Dragón~
+@21 = ~Convoca un dragón rojo.~
+
+@30 = ~Opciones:
+
+1 - El hechizo se añade a la tienda de Ribald en el Mercado del Aventurero
+2 - El hechizo no se agrega a ninguna tienda (como en el original) y debe ser convocado con la consola. El código es "sumdrag"~ 
