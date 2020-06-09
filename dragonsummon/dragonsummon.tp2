@@ -1,0 +1,35 @@
+BACKUP ~DragonSummon/backup~ 
+AUTHOR ~Send a PM to Kevmus at spellholdstudios.net or send an email to KevmusBG@gmail.com~ // contact address displayed if installation fails
+VERSION ~v1~ // version number
+README ~DragonSummon/Readme-DragonSummon.txt~
+
+
+LANGUAGE ~English~
+  ~english~
+  ~DragonSummon/languages/english/setup.tra~
+  
+BEGIN @1
+COPY ~DragonSummon/SUMDRAG.itm~ ~override~
+ SAY NAME1 @10
+ SAY NAME2 @11
+ SAY UNIDENTIFIED_DESC @12 
+ SAY DESC @13 
+
+COPY ~DragonSummon/SUMDRAG.spl~ ~override~
+ SAY NAME1 @20
+ SAY UNIDENTIFIED_DESC @21
+ 
+COPY ~DragonSummon/SUMDRAG.eff~ ~override~
+
+PRINT @30 // should the spell be added to ribald's store?
+ACTION_READLN ~ribald~
+
+OUTER_WHILE NOT(IS_AN_INT %ribald%)  || (%ribald% > 2) || (%ribald% < 1) BEGIN
+ PRINT @30 // Oops, put an actual number in.
+ ACTION_READLN ~ribald~
+END
+
+ACTION_IF %ribald% ==1 BEGIN
+COPY_EXISTING ~ribald.sto~ ~override/ribald.sto~
+ADD_STORE_ITEM "SUMDRAG" #1 #0 #0 ~IDENTIFIED~ #1
+END
