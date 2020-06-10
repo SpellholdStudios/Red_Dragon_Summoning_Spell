@@ -1,15 +1,25 @@
-@1  = ~Hechizo de convocar Dragón Rojo~ 
+@1  = ~Hechizo de convocar Dragón rojo~ 
 @2  = ~Este mod no esta disponible para tu juego.~
 
 @10 = ~Pergamino~
-@11 = ~Convocar Dragón~ 
+@11 = ~Convocar Dragón rojo~ 
 @12 = ~Este pergamino andrajoso parece vagamente poderoso.~
-@13 = ~Convoca un dragón rojo.~ 
+@13 = ~Convocar Dragón rojo
+(Conjuración/Convocación)
 
-@20 = ~Convocar Dragón~
-@21 = ~Convoca un dragón rojo.~
+Nivel: 9
+Alcance: Rango visual del lanzador
+Duración: 33 asaltos
+Tiempo de lanzamiento: 9
+Área de efecto: Especial
+Tirada de Salvación: Ninguna
+
+Al ejecutar este sortilegio, el lanzador convoca un dragón rojo en las cercanías del lanzador. El dragón hará obedecerá las órdenes del lanzador hasta que muera o expire el conjuro.~ 
 
 /* DEPRECATED as of v2.0.0
+@20 = ~Convocar Dragón rojo~
+@21 = ~Convoca un dragón rojo.~
+
 @30 = ~Opciones:
 
 1 - El hechizo se añade a la tienda de Ribald en el Mercado del Aventurero
