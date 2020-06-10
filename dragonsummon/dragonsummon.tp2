@@ -32,6 +32,10 @@ LANGUAGE ~Russian (translation by Fess)~
          ~russian~
          ~dragonsummon/lang/russian/setup.tra~
 
+LANGUAGE ~Francais (traduction : Gwendolyne)~
+         ~french~
+         ~dragonsummon/lang/french/setup.tra~
+
 
 /* ================================ *
  *    Red Dragon Summoning Spell    *
@@ -47,10 +51,18 @@ COPY ~dragonsummon/files/sumdrag.itm~ ~override~
 	SAY DESC @13
 
 COPY ~dragonsummon/files/sumdrag.spl~ ~override~
-	SAY NAME1 @20
-	SAY UNIDENTIFIED_DESC @21
+	SAY NAME1 @11
+	SAY UNIDENTIFIED_DESC @13
+BUT_ONLY
 
 COPY ~dragonsummon/files/sumdrag.eff~ ~override~
+
+COPY ~dragonsummon/bam~ ~override~
+
+COPY_EXISTING ~ribald3.sto~ ~override~
+	ADD_STORE_ITEM "SUMDRAG" AFTER ~SCRL9Z~ #1 #0 #0 ~IDENTIFIED~ #1
+BUT_ONLY
+
 /*
 PRINT @30 // should the spell be added to ribald's store?
 ACTION_READLN ~ribald~
