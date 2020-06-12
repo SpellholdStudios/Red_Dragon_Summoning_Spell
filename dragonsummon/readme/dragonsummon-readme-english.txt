@@ -44,6 +44,10 @@ Version 2.0.0 (June 12, 2020)
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Removed `READLN` action and included into main component the option adding the scroll in Ribald's secret stock of items, to support AL|EN's "Project Infinity".
 - Added native BG2:EE and EET compatibility.
+- Added new spell and scroll icon.
+- Fixed wrong spell level (9 - was 7).
+- Wrote an accurate spell description.
+- Added French translation (thanks Gwendolyne).
 - Added Russian translation (thanks Fess and Austin).
 - Added Spanish translation (thanks Lisandro).
 - Updated translations (Gwendolyne and Austin).

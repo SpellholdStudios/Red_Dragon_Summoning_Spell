@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
-<div align="center"><h1></a>Red Dragon Summoning Spell (WIP)</h1>
+<div align="center"><h1></a>Red Dragon Summoning Spell</h1>
 
 <h3>A mod hosted by Spellhold Studios for Baldur's Gate II: Throne of Bhaal (classical and EE games),
 Baldur's Gate Trilogy and EET<h3>
@@ -16,7 +16,7 @@ Baldur's Gate Trilogy and EET<h3>
 **Mod Forum:** <a href="http://www.shsforums.net/topic/40883-red-dragon-summoning-spell-weidu-version/">Red Dragon Summoning Spell</a>  
 
 
-[Read the mod's readme](http://spellholdstudios.github.io/readmes/dragonsummon-readme.txt)
+[Read the mod's readme](http://spellholdstudios.github.io/readmes/dragonsummon-readme-english.txt)
 
 [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/799-dragon-summon-weidu/)<br>
 
@@ -47,7 +47,7 @@ This mod is designed to work on the following Infinity Engine games: the origina
 
 This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please <a href="http://www.shsforums.net/topic/40883-red-dragon-summoning-spell-weidu-version/">report them on the forum!</a><br>
 
->Although it is not required for the Demon Summoning Ritual mod to function properly, classical game players are strongly recommended to download and install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
+>Although it is not required for the Red Dragon Summoning Spell mod to function properly, classical game players are strongly recommended to download and install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -74,7 +74,7 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### Windows
 
-The Dragon Summoning Spell mod for Windows is distributed as an extractable compressed archive and includes a WeiDU installer.
+The Red Dragon Summoning Spell mod for Windows is distributed as an extractable compressed archive and includes a WeiDU installer.
 
 Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: dragonsummon folder and a setup-dragonsummon.exe file in your game folder. To install, simply double-click **`setup-dragonsummon.exe`** and follow the instructions on screen.
 
@@ -84,7 +84,7 @@ Run **`setup-dragonsummon.exe`** in your game folder to reinstall, un-install or
 
 #### Mac OS X
 
-The Dragon Summoning Spell mod for Mac OS X is distributed is distributed in the same compressed archive and includes a WeiDU installer.
+The Red Dragon Summoning Spell mod for Mac OS X is distributed is distributed in the same compressed archive and includes a WeiDU installer.
 
 First, extract the files from the archive into your game directory. On successful extraction, there should be a :file_folder: dragonsummon folder, setup-dragonsummon and setup-dragonsummon.command files in your game folder. To install, simply double-click **`setup-dragonsummon.command`** and follow the instructions on screen.
 
@@ -94,11 +94,11 @@ Run **`setup-dragonsummon.command`** in your game folder to reinstall, un-instal
 
 #### Linux
 
-The Dragon Summoning Spell mod for Linux is distributed in the same compressed archive and does not include a WeiDU installer.
+The Red Dragon Summoning Spell mod for Linux is distributed in the same compressed archive and does not include a WeiDU installer.
 
 Extract the contents of the mod to the folder of the game you wish to modify.
 
-Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidU and weinstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
 
 To install, run **`weinstall setup-dragonsummon`** in your game folder. Then run **`wine BGMain.exe`** and start playing.
 
@@ -125,7 +125,7 @@ In addition to the methods above for removing individual components, you can com
 - kevmus: First WeiDU conversion.
 - Gwendolyne: Provided French translation.
 - Lisandro: Provided Spanish translation.
-- Fess ans aerie.ru team: Provided Russian translation.
+- Fess, Austin and aerie.ru team: Provided Russian translation.
 - AL|EN: Wrote <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">Infinity Auto Packager</a> tool which automatically provides Windows, Linux and Mac versions in the same archive file.
 
 If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/40883-red-dragon-summoning-spell-weidu-version/">mod forum</a>.</br>
@@ -134,7 +134,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 #### Copyrights Information
 
-###### The Dragon Summoning Spell is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Coco_Pliz, based on material from the game Baldur's Gate II and its expansion.
+###### The Red Dragon Summoning Spell is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Coco_Pliz, based on material from the game Baldur's Gate II and its expansion.
 ###### All mod content is &copy;Coco_Pliz.
 ###### Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.
 
@@ -151,7 +151,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Versions History
 
-##### Version 2.0.0 (June 10, 2020)
+##### Version 2.0.0 (June 12, 2020)
 
 - Added *dragonsummon.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *Setup-DragonSummon.tp2* -> *dragonsummon.tp2* to support AL|EN's "Project Infinity".
@@ -161,10 +161,14 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Removed `READLN` action and included into main component the option adding the scroll in Ribald's secret stock of items, to support AL|EN's "Project Infinity".
 - Added native BG2:EE and EET compatibility.
-- Added Russian translation (thanks Fess).
+- Added new spell and scroll icon.
+- Fixed wrong spell level (9 - was 7).
+- Wrote an accurate spell description.
+- Added French translation (thanks Gwendolyne).
+- Added Russian translation (thanks Fess and Austin).
 - Added Spanish translation (thanks Lisandro).
 - Updated translations (Gwendolyne and Austin).
-- Updated and renamed readme file to *dragonsummon-readme.txt*, then moved it into new "*readme*" folder.
+- Updated and renamed readme file to *dragonsummon-readme-english.txt*, then moved it into new "*readme*" folder.
 - Removed useless "*backup*" folder.
 - Reorganized mod architecture tree: created or renamed folders to sort files according to their types.
 - Lower cased files.
@@ -186,6 +190,3 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 - Initial release.
 <div align="right"><a href="#top">Back to top</a></div>
- 
-
-
