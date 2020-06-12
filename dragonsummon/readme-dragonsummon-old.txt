@@ -1,9 +1,13 @@
-I did not make this mod and I do not claim credit for it. I merely updated it to weidu because dragons are cool. 
-I also added an option that places it in Ribald's store. 
+
+======================================================================================================================
+FIRST WEIDU CONVERSION
+
+I did not make this mod and I do not claim credit for it. I merely updated it to WeiDu because dragons are cool.
+I also added an option that places it in Ribald's store.
 
 -Kevmus
 
-What follows is the original readme. 
+What follows is the original readme.
 
 ======================================================================================================================
 Red dragon Summoning Installation: -= MAGE SPELL =-
@@ -27,8 +31,11 @@ This item should work with any version or addon.
 
 You must not use it everywhere because Red Dragon is a very big monster and can block your characters......... :(
 !!! And don't forget to use it too much will remove pleasure of the game !!!
-===================
 
+
+======================================================================================================================
+
+ORIGINAL README
 
 This pack was created/edited by Coco_Pliz and corrected by Extremist ;)
 
