@@ -1,0 +1,27 @@
+@1  = ~Incantesimo dell'Evocazione del Drago Rosso~
+@2  = ~Devi avere ToB, BGT, BG2:EE o EET installato per poter installare l’Incantesimo dell'Evocazione del Drago Rosso.~
+
+@10 = ~Pergamena~
+@11 = ~Evocare Drago Rosso~
+@12 = ~Questa pergamena malridotta ha l’aria di essere vagamente potente.~
+@13 = ~Evocare Drago Rosso
+(Evocazione/Attrazione)
+
+Livello:9
+Raggio d’azione: Campo visivo del lanciatore
+Durata: 33 round
+Tempo di lancio: 9
+Area d’Effetto: Speciale
+Tiro Salvezza: Nessuno
+
+Dopo aver lanciato un incantesimo di Evocare Drago Rosso, il lanciatore evoca un drago rosso nelle vicinanze dell’incantatore. Il drago eseguirà gli ordini di colui o colei che ha lanciato l’incantesimo fino a che non verrà ucciso o la durata dell’incantesimo non finirà.~
+
+/* DEPRECATED as of v2.0.0
+@20 = ~Evocare Drago~
+@21 = ~Evoca un Drago Rosso.~
+
+@30 = ~Opzioni:
+1- L'Incantesimo é aggiunto al negozio di Ribald nell'Emporio dell'Avventuriero
+2- L'incantesimo non é presente in nessun negozio (come nel gioco originale) e deve essere utilizzato il comando clua console. Il Codice dell'Oggetto é sumdrag
+~
+*/
