@@ -1,7 +1,7 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Red_Dragon_Summoning_Spell?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
 <div align="center"><h1></a>Red Dragon Summoning Spell</h1>
 
@@ -15,12 +15,13 @@ Baldur's Gate Trilogy and EET<h3>
 **Mod Website:** <a href="http://www.shsforums.net/forum/127-mod-resurrections/">Spellhold Studios</a>  
 **Mod Forum:** <a href="http://www.shsforums.net/topic/40883-red-dragon-summoning-spell-weidu-version/">Red Dragon Summoning Spell</a>  
 
+## 
 
-[Read the mod's readme](http://spellholdstudios.github.io/readmes/dragonsummon-readme-english.txt)
+[Read the mod's readme](https://spellholdstudios.github.io/readmes/dragonsummon-readme-english.txt)
 
 [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/799-dragon-summon-weidu/)<br>
 
-&nbsp;
+## 
 
 <div align="center">
 <a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></br>
@@ -98,9 +99,9 @@ The Red Dragon Summoning Spell mod for Linux is distributed in the same compress
 
 Extract the contents of the mod to the folder of the game you wish to modify.
 
-Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to /usr/bin. Following that, open a terminal, **`cd`** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
 
-To install, run **`weinstall setup-dragonsummon`** in your game folder. Then run **`wine BGMain.exe`** and start playing.
+To install, run **`weinstall setup-dragonsummon`** in your game folder. Then run **`wine BGMain.exe`** (or **`wine baldur.exe`** for EE games) and start playing.
 
 ## 
 
@@ -123,12 +124,13 @@ In addition to the methods above for removing individual components, you can com
 
 - Extremist: Proofread the original mod.
 - kevmus: First WeiDU conversion.
-- Gwendolyne: Provided French translation.
-- Lisandro: Provided Spanish translation.
-- Fess, Austin and aerie.ru team: Provided Russian translation.
+- ilot: Italian translation.
+- Gwendolyne: French translation.
+- Lisandro: Spanish translation.
+- Fess, Austin and aerie.ru team: Russian translation.
 - AL|EN: Wrote <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">Infinity Auto Packager</a> tool which automatically provides Windows, Linux and Mac versions in the same archive file.
 
-If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/40883-red-dragon-summoning-spell-weidu-version/">mod forum</a>.</br>
+&#9755; If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/40883-red-dragon-summoning-spell-weidu-version/">mod forum</a>.</br>
 
 ## 
 
@@ -151,14 +153,20 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Versions History
 
+##### Version 2.1.0 (August 30, 2020)
+
+- Added Italian translation (by ilot).
+
+## 
+
 ##### Version 2.0.0 (June 12, 2020)
 
 - Added *dragonsummon.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *Setup-DragonSummon.tp2* -> *dragonsummon.tp2* to support AL|EN's "Project Infinity".
 - Replaced `AUTHOR` keyword with `SUPPORT`.
+- Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
 - Added component `DESIGNATED` number and "*red_dragon_summoning_spell*" `LABEL`.
-- Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Removed `READLN` action and included into main component the option adding the scroll in Ribald's secret stock of items, to support AL|EN's "Project Infinity".
 - Added native BG2:EE and EET compatibility.
 - Added new spell and scroll icon.

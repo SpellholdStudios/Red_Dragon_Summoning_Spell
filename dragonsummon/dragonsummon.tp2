@@ -2,7 +2,7 @@ BACKUP ~dragonsummon/backup~
 //AUTHOR ~Send a PM to Kevmus at spellholdstudios.net or send an email to KevmusBG@gmail.com~ // contact address displayed if installation fails
 SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/40883-red-dragon-summoning-spell-weidu-version/~
 
-VERSION ~v2.0.0~
+VERSION ~v2.1.0~
 
 README ~dragonsummon/readme/dragonsummon-readme-english.txt~
 
@@ -38,6 +38,10 @@ LANGUAGE ~Russian (translation by Fess)~
 LANGUAGE ~Francais (traduction : Gwendolyne)~
          ~french~
          ~dragonsummon/lang/french/setup.tra~
+
+LANGUAGE ~Italiano (traduzione di ilot)~
+         ~italian~
+         ~dragonsummon/lang/italian/setup.tra~
 
 
 /* ================================ *
