@@ -153,6 +153,12 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="versions" id="versions"></a>Versions History
 
+##### Version 2.2.0 (July 25, 2023)
+
+- Applied OlvynChuru's Class Spell Tool to the Red Dragon Summoning spell.  Most users won't of this spell won't experience any changes, but Olvyn's Class Spell Tool provides greater compatibility with some ther mods such as subtledoctor's 5e Spellcasting.
+
+## 
+
 ##### Version 2.1.0 (August 30, 2020)
 
 - Added Italian translation (by ilot).
