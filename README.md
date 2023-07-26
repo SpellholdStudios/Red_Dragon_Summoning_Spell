@@ -156,7 +156,7 @@ In addition to the methods above for removing individual components, you can com
 
 ##### Version 2.2.0 (July 25, 2023)
 
-- Applied OlvynChuru's Class Spell Tool to the Red Dragon Summoning spell.  Most users won't of this spell won't experience any changes, but Olvyn's Class Spell Tool provides greater compatibility with some ther mods such as subtledoctor's 5e Spellcasting.
+- Applied OlvynChuru's Class Spell Tool to the Red Dragon Summoning spell - a level 9 arcane Conjuration.  Most users won't of this spell won't experience any changes, but Olvyn's Class Spell Tool provides greater compatibility with some other Enhanced Edition mods such as subtledoctor's 5e Spellcasting.  Only Mages can learn it and cast it from their repertoires - just like in previous versions.
 
 ## 
 
