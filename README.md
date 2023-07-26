@@ -122,6 +122,7 @@ In addition to the methods above for removing individual components, you can com
 
 #### Special Acknowledgements to:
 
+- Endarire: Added Olvyn's Class Spell Tool compatibility.
 - Extremist: Proofread the original mod.
 - kevmus: First WeiDU conversion.
 - ilot: Italian translation.
