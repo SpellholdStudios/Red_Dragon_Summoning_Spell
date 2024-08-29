@@ -70,6 +70,10 @@ COPY_EXISTING ~ribald3.sto~ ~override~
 	ADD_STORE_ITEM "SUMDRAG" AFTER ~SCRL9Z~ #1 #0 #0 ~IDENTIFIED~ #1
 BUT_ONLY
 
+INCLUDE ~%MOD_FOLDER%/ClassSpellTool.TPA~
+
+LAF ADD_CLASS_SPELL STR_VAR resref=~sumdrag~ scroll=~sumdrag~ class_include=~{'MAGE_ALL'}~ END
+
 /*
 PRINT @30 // should the spell be added to ribald's store?
 ACTION_READLN ~ribald~
